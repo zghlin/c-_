@@ -1,0 +1,15 @@
+github下载文件时：
+  下载比较大的项目时，用代理网站下载。
+  下载比较小的项目，用CDN加速
+使用代理网站下载 
+法1：https://toolwa.com/github/
+法2：https://doget.nocsdn.com/#/
+    将文件地址输入进去，然后回车。稍等一会儿, 下方会出现加速地址。我这里加速的是github release文件。
+    复制生成的结果，粘贴到浏览器地址栏中下载.
+法3：修改系统host文件，绕过国内dns解析，直接访问github的CDN节点，从而达到github访问加速的母的。
+     不需要海外服务器辅助。
+     （1）获取github官方CDN地址
+     （2）修改系统hosts文件
+     （3）刷新系统DNS缓存
+            查询IP地址：https://www.ipaddress.com/
+法4：从gitee导入下载
