@@ -1,14 +1,14 @@
 # All of the files are c source files
 ## 数组
-<hr>
 ### 字符串的输入输出
-<hr>
+
 #### 字符串的输入
 ```c
 puts()//输出字符串并换行
 printf()//可输出字符串，无法自动换行
 ```
 <hr>
+
 #### 字符串的输出
 
 ```c
